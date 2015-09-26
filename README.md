@@ -1,12 +1,12 @@
 # chrome-native-messaging-java
-A Chrome Extension interacting with the Native Messaging API, which calls a Java program, in order to access host information, as certificate store.
+A Chrome Extension interacting with the Native Messaging API, which calls a Java program, in order to access host information, as certificate store. Basically simulating a Java Applet scenario, without NPAPI.
 
 **tested only on Windows.**
 
 This application fill the requirements below:
 
-1. Web Application `(test-ui folder)`, which exchange messages with a Chrome Extension via JSON `(app folder)`.
-2. Chrome Extension exchange messages with the Chrome Native Messaging API `(host-dist folder)`, which calls a `.bat` and it calls a Java program `(host-project folder)` to access the Windows Certificate Store in order to list all the availabe certificates or sign documents.
+1. Web Application `(test-ui folder)`, which exchanges messages with a Chrome Extension via JSON `(app folder)`.
+2. Chrome Extension exchanges messages with the Chrome Native Messaging API `(host-dist folder)`, which calls a `.bat` and it calls a Java program `(host-project folder)` to access the Windows Certificate Store in order to list all the availabe certificates or sign documents.
 3. Install and uninstall host application.
 
 ###How to test:###
