@@ -1,0 +1,21 @@
+{
+  "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDcBHwzDvyBQ6bDppkIs9MP4ksKqCMyXQ/A52JivHZKh4YO/9vJsT3oaYhSpDCE9RPocOEQvwsHsFReW2nUEc6OLLyoCFFxIb7KkLGsmfakkut/fFdNJYh0xOTbSN8YvLWcqph09XAY2Y/f0AL7vfO1cuCqtkMt8hFrBGWxDdf9CQIDAQAB",
+  "name": "Uly Marins - Native Messaging",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Chrome extension interacting with Native Messaging and localhost.",
+  "app": {
+    "background": {
+      "scripts": ["main.js"]
+    }
+  },
+  "icons": {
+  },
+  "externally_connectable": {
+    "matches": ["*://your.application.sistemas.api/*"]
+  },
+  "permissions": [
+    "nativeMessaging",
+    "*://your.application.sistemas.api/*"
+  ]
+}

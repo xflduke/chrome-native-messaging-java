@@ -1,0 +1,9 @@
+{
+  "name": "io.github.ulymarins",
+  "description": "Chrome Extension interacting with Chrome Native Messaging.",
+  "path": "Extension.bat",
+  "type": "stdio",
+  "allowed_origins": [
+    "chrome-extension://knldjmfmopnpolahpmmgbagdohdnhkik/"
+  ]
+}
