@@ -1,5 +1,5 @@
 # chrome-native-messaging-java
-A Chrome Extension interacting with the Native Messaging API, which calls a Java program, in order to access host information, as certificate store. Basically simulating a Java Applet scenario, without NPAPI.
+A Chrome Extension interacting with the Native Messaging API/Message Passing, which calls a Java program, in order to access host information, as certificate store. All this proccess is just to simulate a Java Applet scenario, without NPAPI.
 
 **tested only on Windows.**
 
